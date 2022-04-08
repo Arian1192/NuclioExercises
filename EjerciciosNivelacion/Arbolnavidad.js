@@ -18,4 +18,32 @@ const Arbolnavidad = (filasArbol) => {
 }
 
 
-Arbolnavidad(10);
+Arbolnavidad(5);
+
+
+// let lines = 10;
+
+// for (let i = 0; i <= lines; i++) {
+//     let contenido = '';
+//     for (let x = i; x < lines; x++) {
+//         contenido += ' ';
+//     }
+//     for (let j = 0; j < i; j++) {
+//         contenido += ' *';
+//     }
+
+//     console.log(contenido);
+// }
+
+// Crea un arbol de 10 lineas con asteriscos.
+// let lines = 10;
+// for (let i = 0; i <= lines; i++) {
+//     let contenido = '';
+//     for (let x = i; x < lines; x++) {
+//         contenido += ' ';
+//     }
+//     for (let j = 0; j < (2 * i) - 1; j++) {
+//         contenido += '*';
+//     }
+//     console.log(contenido);
+// }
