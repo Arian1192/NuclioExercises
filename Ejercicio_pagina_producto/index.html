@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pagina Producto</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Headphones</h1>
+      <p>The true sound in your ears</p>
+    </div>
+    <div class="topbar">
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="containerMain">
+      <div class="containerProduct">
+        <img src="./assets/aur1.jpg" alt="aur1" width="450px" height="450px" />
+        <div class="containerSpecs">
+          <h1>Nombre del Auricular</h1>
+          <h2>Precio</h2>
+          <div class="boxParagraph">
+            <p class="specParagraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. aojsoaks
+              asasjaosj Lorem ipsum dolor
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="containerComment">
+        <div id="newComentario"></div>
+
+        <div class="containerInput">
+          <h2>Deja tu comentario</h2>
+          <input id="name" type="text" placeholder="Nombre" />
+
+          <textarea
+            class="textInput"
+            id="comentario"
+            placeholder="Escribe aqui tu comentario"
+          ></textarea>
+
+          <br />
+          <button class="button" onclick="mostrarComentario()">Guardar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
