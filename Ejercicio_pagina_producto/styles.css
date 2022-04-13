@@ -38,7 +38,7 @@ body{
 .containerMain{
     height: 700px;
     padding: 20px;
-    margin: 20px;
+    margin-top: 20px;
 
 }
 .containerProduct{
@@ -50,6 +50,7 @@ body{
 
 }
 .containerSpecs{
+    width: 50%;
     margin-left: 60px;
 }
 
